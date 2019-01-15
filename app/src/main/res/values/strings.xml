@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TokioAndroidPoc</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="name">Name*</string>
+    <string name="type_text">Type text</string>
+    <string name="date_of_birth">Date Of Birth*</string>
+    <string name="gender">Gender</string>
+    <string name="maritial_status">Maritial Status</string>
+    <string name="continues">Continue</string>
+    <string name="divorced">Divorced</string>
+    <string name="single">Single</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+</resources>
