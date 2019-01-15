@@ -1,14 +1,17 @@
 package tokiopoc.tokio.tokioandroidpoc.application;
 
 import android.support.multidex.MultiDexApplication;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
 import java.util.concurrent.TimeUnit;
-import maxlife.maxlifepoc.network.ApiClientInterface;
+
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+import tokiopoc.tokio.tokioandroidpoc.network.ApiClientInterface;
 
 import static maxlife.maxlifepoc.network.NetworkConstant.NETWORK_TIMEOUT;
 

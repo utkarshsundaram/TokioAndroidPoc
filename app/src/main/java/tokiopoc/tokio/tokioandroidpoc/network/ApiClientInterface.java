@@ -1,15 +1,12 @@
-package maxlife.maxlifepoc.network;
-
-
-import maxlife.maxlifepoc.model.BaseResponseModel;
-import maxlife.maxlifepoc.utils.ApiConstants;
+package tokiopoc.tokio.tokioandroidpoc.network;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
+import tokiopoc.tokio.tokioandroidpoc.model.BaseResponseModel;
 
 public interface ApiClientInterface {
 
-    @POST(ApiConstants.EMAIL_SEND)
+    @POST("")
     Call<BaseResponseModel> sendDetails(@Body Object object);
 
 }

@@ -1,4 +1,4 @@
-package maxlife.maxlifepoc.model;
+package tokiopoc.tokio.tokioandroidpoc.model;
 
 public class OffersModel {
     public String mOffersHeading;
