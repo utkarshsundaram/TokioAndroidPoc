@@ -25,6 +25,7 @@ import android.app.DialogFragment;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.Matrix;
@@ -707,6 +708,10 @@ public class Camera2VideoFragment extends Fragment
             Toast.makeText(activity, "Video saved: " + mNextVideoAbsolutePath,
                     Toast.LENGTH_SHORT).show();
             Log.d(TAG, "Video saved: " + mNextVideoAbsolutePath);
+            Intent intent = new Intent(getActivity(), SubmitActivity.class);
+            intent.putExtra("filepath", mNextVideoAbsolutePath);
+            startActivity(intent);
+            getActivity().finish();
         }
         mNextVideoAbsolutePath = null;
         startPreview();

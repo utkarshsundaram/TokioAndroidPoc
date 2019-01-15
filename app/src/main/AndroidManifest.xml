@@ -11,6 +11,7 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
+
     <application
         android:name=".application.TokioApplication"
         android:allowBackup="true"
@@ -27,6 +28,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.CameraActivity" />
+        <activity android:name=".ui.SubmitActivity"></activity>
     </application>
 
 </manifest>
